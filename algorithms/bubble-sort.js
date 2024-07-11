@@ -16,6 +16,6 @@ const bubbleSort = (coll) => {
   } while (swapped);
 
   return coll;
-}
+};
 
 export default bubbleSort;

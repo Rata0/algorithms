@@ -1,5 +1,5 @@
 const linearSearch = (array, item) => {
-  const length = array.length;
+  const { length } = array;
   for (let i = 0; i < length; i += 1) {
     if (array[i] === item) {
       return i;
@@ -7,6 +7,6 @@ const linearSearch = (array, item) => {
   }
 
   return -1;
-}
+};
 
 export default linearSearch;

@@ -1,4 +1,4 @@
-import bubbleSort from '../../algorithms/bubble-sort.js'
+import bubbleSort from '../../algorithms/bubble-sort.js';
 
 describe('Test bubbleSort', () => {
   it('sorting numbers without duplicates', () => {

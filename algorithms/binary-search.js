@@ -18,7 +18,7 @@ const binarySearch = (array, item) => {
     }
   }
 
-  return position
-}
+  return position;
+};
 
 export default binarySearch;
